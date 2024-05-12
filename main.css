@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Mont-Regular';
+    src: url('data/font/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mont-Bold';
+    src: url('data/font/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mont-Medium';
+    src: url('data/font/Montserrat-Medium.ttf') format('truetype');
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(10, 10, 10);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(54, 54, 54);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #eb2323;
+}
+
+body {
+    font-family: 'Mont-Regular', sans-serif;
+    line-height: 1.6;
+    background-color: rgb(9, 10, 12);
+    color: white;
+}
+
+input {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid rgb(51, 51, 54);
+    height: 30px;
+    color: white;
+    font-family: "Mont-Regular";
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+input:focus {
+    border: 2px solid #fd0027;
+    outline: none;
+    color: #fd0027;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    margin-top: 10px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+}
+
+select {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid #fd0027;
+    height: 35px;
+    color: #fd0027;
+    font-family: "Mont-Regular";
+    font-size: 12px;
+    padding-left: 10px;
+    appearance: none;
+    outline: none;
+}
+
+select:hover {
+    background-color: #fd0027;
+    outline: none;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+option {
+    font-family: "Mont-Regular";
+    font-size: 12px;
+    background-color: #fd0027;
+    font-weight: bold;
+    outline: none;
+    color: rgb(10, 10, 10);
+}
+
+option:hover {
+    outline: none;
+    background-color: #e6e6e6;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #fd0027;
+    border-radius: 50px;
+    height: 35px;
+    color: #fd0027;
+    font-family: "Mont-Regular";
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fd0027;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+
+span {
+    color: rgb(51, 51, 54);
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 3px;
+}

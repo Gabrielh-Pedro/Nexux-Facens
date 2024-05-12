@@ -1,0 +1,56 @@
+.backgroundArea {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    overflow: clip;
+}
+
+.background {
+    height: 100%;
+    background-position: right top;
+    text-align: center;
+}
+
+.loginArea {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+}
+
+form {
+    margin-top: 10px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 130px;
+}
+
+.textTitle {
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(51, 51, 54);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#enterAccount {
+    margin-top: 20px;
+}
+
+#dontAccount {
+    margin-top: 10px;
+}

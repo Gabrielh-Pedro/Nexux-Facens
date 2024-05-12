@@ -1,0 +1,83 @@
+.logo {
+    position: absolute;
+    top: 0;
+    width: 130px;
+    margin-top: 40px;
+}
+
+.backgroundArea {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    overflow: clip;
+}
+
+.background {
+    height: 100%;
+    background-position: right top;
+    text-align: center;
+}
+
+.textArea {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.title {
+    color: #30303a;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Mont-Medium";
+}
+
+.subtitle {
+    color: #fd0027;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Mont-Bold";
+}
+
+.textContent {
+    color: #30303a;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.account2 {
+    margin-left: 20px;
+}
+
+.socialMedia {
+    font-size: 25px;
+    margin-top: 25px;
+    color: #30303a;
+}
+
+#social {
+    margin-left: 10px;
+    transition: transform 0.5s ease; 
+    cursor: pointer;
+}
+
+#social:hover {
+    color: #fd0027;
+    transform: scale(1.25);
+}

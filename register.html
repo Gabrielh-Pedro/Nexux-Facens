@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="backgroundArea">
+        <img src="data/background.png" alt="" class="background">
+    </div>
+
+    <div class="registerArea">
+
+        <img src="data/logo.png" alt="" class="logo">
+
+        <div class="textTitle">Olá, seja bem-vindo(a) ao Nexus!<br>Vamos criar uma conta!?</div>
+    
+            <form id="formulary" action="#" method="post">
+                <input placeholder="Crie seu nome de usuário" type="text" id="username" name="username" required>
+                <span class="error-message" id="username-error"></span>
+    
+                <input placeholder="Digite seu e-mail" type="email" id="email" name="email" required>
+                <span class="error-message" id="email-error"></span>
+    
+                <input placeholder="Digite seu CPF" type="text" id="cpf" name="cpf" required>
+                <span class="error-message" id="cpf-error"></span>
+    
+                <input placeholder="Crie sua senha" type="password" id="password" name="password" required>
+                <span class="error-message" id="password-error"></span>
+    
+                <input placeholder="Confirme sua senha" type="password" id="confirm-password" name="confirm-password" required>
+                <span class="error-message" id="confirm-error"></span>
+
+    
+                <select id="opcao" name="opcao" required>
+                    <option value="">Eu sou um...</option>
+                    <option value="opcao1">Desenvolvedor</option>
+                    <option value="opcao2">Financiador</option>
+                </select>
+
+                <label class="checkbox-container">
+                    <input type="checkbox" id="agreeTerms">
+                    <span class="checkmark"></span>
+                    <label for="concordo-com-termos" id="texto-termos">Ao seguir eu concordo com todos os termos de
+                        contrato.</label>
+                        <span class="error-message" id="agreeError"></span>
+                </label>
+
+    
+                <button id="createAccount" type="submit">Criar minha conta</button>
+                <button id="haveAccount" type="button">Já tenho uma conta</button>
+            </form>
+
+    </div>
+
+    <script src="register.js"></script>
+
+</body>
+</html>
