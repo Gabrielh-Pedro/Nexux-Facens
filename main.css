@@ -111,12 +111,16 @@ button {
     font-family: "Mont-Regular";
     font-size: 12px;
     cursor: pointer;
+    transition: scale 0.1s ease-in;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 button:hover {
     background-color: #fd0027;
     color: rgb(10, 10, 10);
     font-weight: bold;
+    scale: 1.04;
 }
 
 span {
